@@ -1,0 +1,30 @@
+{
+  "destinations": [
+    {
+      "name": "illustrations",
+      "slug": "illustrations",
+      "image": "frontfairy1.gif",
+      "hoverImage":"frontfairymoving.gif",
+      "id": 1
+    },
+    {
+      "name": "concept",
+      "slug": "concept",
+      "image": "middlefairy.GIF",
+      "hoverImage":"movingmiddlefairy.gif",
+      "id": 2
+    },
+    {
+      "name": "animation",
+      "slug": "Animation",
+      "image": "lastfairy.GIF",
+      "hoverImage":"lastfairymoving.gif",
+      "id": 3
+    
+    }
+  ]
+}
+
+
+
+  

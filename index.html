@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/lightbox.min.css">
+    <script src="/lightbox-plus-jquery.min.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/concept" href="images/icon4.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanavi G P | Concept Artist and Illustrator</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    </div> 
+
+    <script>
+      let lastScrollTop = 0;
+  
+      window.addEventListener("scroll", function () {
+        let st = window.pageYOffset || document.documentElement.scrollTop;
+  
+        if (st > lastScrollTop) {
+          // Scroll down
+          document.getElementById("nav").style.top = "-80px"; // Adjust the value based on your navigation bar height
+        } else {
+          // Scroll up
+          document.getElementById("nav").style.top = "110px";
+        }
+  
+        lastScrollTop = st <= 0 ? 0 : st;
+      });
+    </script>
+
+  </body>
+</html>
+<style>
+</style>
