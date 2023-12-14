@@ -24,7 +24,7 @@
 </template>
 
 <script>
-
+import axios from 'axios';
 
 export default {
   data() {
@@ -43,6 +43,16 @@ export default {
         email: this.email,
         message: this.message,
       };
+
+      axios.post('http://localhost:3000/api/contact', formData)
+        .then(response => {
+          console.log(response.data);
+          // Handle success, e.g., show a success message to the user
+        })
+        .catch(error => {
+          console.error('Error submitting form:', error);
+          // Handle error, e.g., show an error message to the user
+        });
     },
   },
 };
