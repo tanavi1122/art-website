@@ -34,24 +34,7 @@ a:visited {
   display: flex;
   justify-content: center;
 }
-
-
 /* Navigation */
-/*.navbar-text {
-  /* Style your text element here */
-  /*position: fixed;
-  top: 20px;
-  left: 0; /* Set the left position to keep it fixed on the left side */
-  /*right: 0; /* Set the right position to keep it fixed on the right side */
-  /*width: 100%;
-  font-weight: bold;
-  
-  color: #ffffff; /* Text color */
-  /*margin: 0 auto; /* Center the text horizontally */
-  /*text-align: center; /* Center-align the text */
-  /*font-family: 'Snell Roundhand', cursive;
-  font-size: 35px;}*/
-
 #nav {
   position: fixed;
   top: 110px;
