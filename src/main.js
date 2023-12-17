@@ -4,7 +4,7 @@ import App from './App.vue'
 import router from '@/router'
 //import { VueEmailPlugin } from 'vue-email';
 
-createApp(App)//.mount('#app')
+createApp(App)
 .use(router)
 //.use(VueEmailPlugin)
 .mount('#app')
