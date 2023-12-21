@@ -15,7 +15,7 @@
 
 <style>
 .container img {
-  scroll-margin-top: 120px;
+  scroll-margin-top:120px;
   height:auto;
   width: 100%;
   object-fit:cover;
@@ -43,7 +43,7 @@ p, figure {
   margin: 15px 0;
 }
 .concept-text {
-    margin-top: 40px;
+    margin-top: 20px;
     max-width: 100%; /* Adjust the width based on your design */
   }
   .concept-header {

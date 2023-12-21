@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="header-container">
     <figure class='title'>
         <img src="/images/header-text2.png?url">
     </figure>
@@ -12,13 +13,22 @@
     <router-link to="/contact">Contact</router-link>
   </div>
 </div>
+</div>
+
 </template>
 
 <style>
+.header-container {
+  display: flex;
+  align-items: vertically;
+  justify-content: center;
+  padding: 20px; /* Adjust padding as needed */
+}
 .title img{
   margin-top:0px;
   max-width: 250px;
   height: auto;
   top: 0;
 }
+
 </style>

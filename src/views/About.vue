@@ -1,4 +1,5 @@
 <template>
+ 
     <div class="about">
         <div class="about-content">
       <div class="about-image">
@@ -11,6 +12,7 @@
       </div>
     </div>
     </div>
+  
 </template>
 
 <style scoped>
@@ -22,11 +24,12 @@
     align-items: center;
     max-width: 1300px;
     margin: 20px auto 0 auto; /* Adjust the top margin to move the container up */
-    padding: 120px;
+    padding: 20px;
   }
 
   .about-image {
-    width: 50%; /* Set the width to 50% to take up half of the available space */
+    width: 45%; /* Set the width to 50% to take up half of the available space */
+    max-width: 400px;
   }
 
   .about-image img {
@@ -35,7 +38,8 @@
   }
 
   .about-text {
-    max-width: 45%; /* Adjust the width based on your design */
+    width: 45%; /* Adjust the width based on your design */
+    max-width: 400px;
   }
   .about-header {
     color: #becbd7; /* Change this to your desired color for the header */
