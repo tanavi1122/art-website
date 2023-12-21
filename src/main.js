@@ -17,8 +17,3 @@ createApp(App)
 //.use(VueEmailPlugin)
 .mount('#app')
 
-lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true,
-    'disableScrolling':false
-  });
